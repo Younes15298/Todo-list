@@ -17,14 +17,10 @@ body {
 }
 
 #back-word {
-  opacity: 0px;
   color: #0f0c298e;
-
   text-align: center;
   font-size: 7rem;
-
-  animation-name: heading;
-  animation-delay: 1s;
+  animation-name: word;
   animation-iteration-count: infinite;
   animation-duration: 25s;
   animation-timing-function: ease;
@@ -105,7 +101,7 @@ body {
   background-color: rgb(185, 44, 44);
   transition: 500ms;
 }
-@keyframes heading {
+@keyframes word {
   from {
     opacity: 0;
   }
